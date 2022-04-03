@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// make a variable called name and set it to "Dane"
+// Make a coniditional checking if the name equals mary, if so then console log " "hi, Mary!"
+// If the name does not equal mary then they console.log "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a varible named secret and leave it black
+// make a variable called code and equal it to 123
+// write a conditional that says if code is greater than 250, assign the value "duper" to the variable secret
+//we console.log "secret"
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// They made 3 variables and assigned a value to each one(isStudent equals 2(boullion), age equals 34 and zip equals 55407)
+// Then they wrote a condtion that stated that if "isStudent is true AND zip is greater than 80000" then it would console log "you're a student on the west coast"
+// then they followed it with an else if statement that stated that "if isStudent equals false OR age is less than 30" then they asked "what is your hobby?"
+//they added another else if checking if they were students using the boullion isStudent.
+//then they finished it with an else statement which means that if both of those scenarios are untrue then they console.log "how is the weather?"
 
 //CODE
 /*
@@ -133,10 +134,11 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// colorOne should be colorOne="blue"; and colorTwo should be colorTwo="red";
 if (mix === true) {
   colorOne = 'purple';
 }
+// instead of only colorOne= purple, it should be both colorOne and colorTwo which can be done by using the && variable between colorOne and colorTwo
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -150,6 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+//They said to check is temp is greater than 39 and time is grater than or equal to 4 however they used || which means or, they should be haved && meaning AND.
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -164,6 +167,8 @@ if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+  //The directions say to check is age is greater than or equal to minAge however they are checking if minAge is lessthan or equal to age.(it could give the same results however it is not what the directions say)
+  //after fixing it if(age >= minAge) then they console.log "enter"
 }
 */
 
