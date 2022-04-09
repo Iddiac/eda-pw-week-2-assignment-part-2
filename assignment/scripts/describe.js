@@ -29,7 +29,8 @@ if (number >= 2) {
 // make a variable called name and set it to "Dane"
 // Make a coniditional checking if the name equals mary, if so then console log " "hi, Mary!"
 // If the name does not equal mary then they console.log "How do you do?"
-//
+//(new) Name=Dane, in the if check if name=mary which it does not. In this case console.log("how do you do")
+
 
 //CODE
 /*
@@ -49,6 +50,9 @@ if (name === 'Mary') {
 // make a variable called code and equal it to 123
 // write a conditional that says if code is greater than 250, assign the value "duper" to the variable secret
 //we console.log "secret"
+// (new)code=123, in the if statement, code does equal 123 so assign super to "secret" then multiply code by 2
+//in the if statement check if code is greater than 250, it is not so we console log
+//console.log(secret)= "super"
 
 //CODE
 /*
@@ -75,6 +79,9 @@ console.log(secret)
 // then they followed it with an else if statement that stated that "if isStudent equals false OR age is less than 30" then they asked "what is your hobby?"
 //they added another else if checking if they were students using the boullion isStudent.
 //then they finished it with an else statement which means that if both of those scenarios are untrue then they console.log "how is the weather?"
+
+//(new) in this else if, we checked the 3 variables both the first and 2nd conditionals are false however the third one is true
+// we console.log("welcome to Prime!")
 
 //CODE
 /*
